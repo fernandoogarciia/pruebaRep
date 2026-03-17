@@ -85,4 +85,9 @@ public class Date {
       return false;
     }
   }
+
+  public int pasaranio (int year){
+    year++;
+    return year;
+  }
 }
